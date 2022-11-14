@@ -7,7 +7,7 @@ d_th = 0.4 #threshold for the control of the orientation
 d_th_g = 0.5 #threshold for the control of the orientation
 taken = 0 #variable that indicates if silver token is taken by robot
 markers_silver = {} #dictionary for silver tokens, that are placed next to golden tokens
-markers_gold = {} #dictionary for golden tokens, that are placed next to golden tokens
+markers_gold = {} #dictionary for golden tokens
 
 #function for setting a linear velocity
 #args: speed (int): the speed of the wheels, seconds (int): the time interval
